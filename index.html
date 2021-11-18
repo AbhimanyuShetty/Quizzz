@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="firebase-app.js"></script>
+<script src="firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD7ps11x7zkXIR176JKEa4CbXUP9LyJQ7g",
+  authDomain: "quizzz-a72b1.firebaseapp.com",
+  projectId: "quizzz-a72b1",
+  storageBucket: "quizzz-a72b1.appspot.com",
+  messagingSenderId: "474463251005",
+  appId: "1:474463251005:web:f36f9b2ff2a72c61611854"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="Contestant.js"></script>
+    <script src="Question.js"></script>
+    <script src="Quiz.js"></script>
+  
+
+</body></html>
